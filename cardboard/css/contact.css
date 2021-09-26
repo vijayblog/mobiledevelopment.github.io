@@ -1,0 +1,319 @@
+@charset="utf-8";
+
+
+.banner{
+
+		background-image: url("..//images/hero_2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height:100vh;
+		width: 100%;
+	}
+
+
+@media(max-width: 375px){
+
+
+	.banner{
+
+		background-image: url("..//images/hero_2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 500px;
+	}
+}
+
+.filter{
+
+		width: 100%;
+		height: 100vh;
+		background-color:rgba(0,0,0,0.3);
+
+	}
+
+@media(max-width: 375px){
+
+
+	.filter{
+
+		width: 100%;
+		height: 500px;
+		background-color:rgba(0,0,0,0.3);
+
+	}
+
+
+}
+
+
+a.navbar-brand{
+
+	color: white;
+	letter-spacing: 3px;
+}
+
+@media(max-width: 768px){
+
+	.bgmenu{
+
+
+		background-color:black;
+	}
+}
+
+.nav-item{
+
+	padding: 10px;
+}
+
+.home{
+
+	color: white;
+	letter-spacing: 2px;
+}
+
+.home:hover{
+
+	color: orange;
+}
+
+a.dropdown-item:hover{
+
+	background-color: orange;
+}
+
+
+.home-text h1{
+
+	color: white;
+	font-size: 120px;
+	margin-top: 160px;
+}
+
+@media(max-width: 768px){
+
+	.home-text h1{
+
+	color: white;
+	font-size: 60px;
+}
+
+}
+
+@media(max-width: 667px){
+
+	.home-text h1{
+
+	color: white;
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+}
+
+
+
+
+.hm{
+
+	color: white;
+	text-decoration: underline;
+}
+
+.hm:hover{
+
+	color: white;
+}
+
+.form-contact h4{
+
+	font-family: calibri;
+	font-size: 20px;
+	color: gray;
+}
+
+.name{
+
+	width: 100%;
+	height:45px;
+	border:2px solid black;
+}
+
+.area{
+
+	width: 100%;
+	height: 200px;
+	border:2px solid black;
+}
+
+.send{
+
+	width: 170px;
+	height: 50px;
+	border:2px solid black;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	transition: 0.5s;
+}
+
+.send:hover{
+
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.street{
+
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.person-1{
+
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding: 5px;
+}
+
+.lets button{
+
+
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	border:2px solid white;
+	margin-top: 20px;
+	font-weight: bold;
+	color: white;
+	transition: 0.5s;
+	margin-bottom: 50px;
+}
+
+.lets button:hover{
+
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
+
+.contact{
+
+	margin-left: 50px;
+	padding-top: 120px;
+}
+
+.contact h4{
+
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.contact p{
+
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.contact ul{
+
+	display: inline-flex;
+}
+
+.contact li{
+
+	list-style: none;
+	width: 30px;
+	height: 30px;
+	background-color:transparent;
+	margin-left: 10px;
+	border-radius: 50%;
+	padding: 2px 0px 0px 9px;
+	transition: 0.5s;
+}
+
+.contact li:hover{
+
+	background-color: white;
+	transition: 0.5s;
+}
+
+.contact a{
+
+	color: black;
+}
+
+.contact-info{
+
+	margin-left: 50px;
+	padding-top: 120px;
+}
+
+.contact-info h4{
+
+	font-size: 20px;
+}
+
+.contact-info h5{
+
+	font-size: 15px;
+	margin-top: 25px;
+}
+
+
+.qucik-link{
+
+	margin-left: 50px;
+	padding-top: 120px;
+}
+
+.qucik-link h4{
+
+	font-size: 20px;
+}
+
+
+.qucik-link a{
+
+	color: black;
+	text-decoration:underline;
+}
+
+@media(max-width: 768px){
+
+	.contact{
+
+	margin-left: 0px;
+	padding-top: 80px;
+}
+
+	.contact-info{
+
+	margin-left: 0px;
+	padding-top: 80px;
+}
+
+
+	.qucik-link{
+
+	margin-left: 0px;
+	padding-top: 80px;
+}
+
+
+
+}
+
+.copy{
+
+	margin-bottom: 40px;
+}
+
+
